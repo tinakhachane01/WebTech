@@ -1,0 +1,135 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  .offer {
+    text-align: left ;
+    
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 50px;
+  }
+  
+  .ul-nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav {
+    padding: 5px;
+    background-color: skyblue;
+  }
+  
+  .link {
+    font-size: 22px;
+    color: black;
+    
+  }
+  
+  .links:hover {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 3px solid rgb(227, 13, 13);
+  }
+  
+  .cart {
+    font-size: 22px;
+    color: black;
+  }
+  .search {
+    width:100px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px skyblue;
+  }
+  
+  
+  .product-img{
+      height: 250px;
+      width: 100px;
+  
+  }
+  
+  
+  .product-container{
+      
+      box-shadow: 0 0 10px rgb(162, 158, 158);
+      padding: 10px;
+      width: 250px;
+      text-align: center;
+  
+    border-radius: 10px;
+          display: inline-block;
+          margin-right: 50px;
+          margin-left: 25px;
+          margin-top: 15px;
+      
+  
+  }
+  
+  .product-container:hover{
+      background-color: rgb(242, 244, 245);
+  }
+  
+  .buttons{
+  
+      padding: 8px 20px;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      margin-left: 10px;
+      margin-top: 10px;
+  }
+  .add_to_cart{
+      background-color: red;
+  }
+  .add_to_wishlist{
+    background-color:orange;
+}
+
+  .buy-now{
+      background-color:darkred;
+  }
+  
+  .add_to_cart:focus{
+      background-color:  rgb(17, 213, 227);
+  }
+
+  .add_to_wishlist:focus{
+    background-color:  rgb(17, 213, 227);
+}
+
+  .buy-now:focus{
+      background-color: rgb(17, 213, 227);
+  
+  }
+  .product-desc{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: lighter;
+  }
+  
+  
+  .footer-main-container{
+      height: 20vh;
+      display: flex;
+      padding: 10px;
+      margin-top: 10px;
+  
+     background-color: rgb(185, 232, 251);
+  }
+  .lnk{
+      list-style:none;
+      margin-top: 10px;
+  
+  }
+  
+  
+  .footer-child{
+   width: 34%;
+   font-family:Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  
+
+
+  }
