@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ul-nav{
+list-style: none;
+display: flex;
+justify-content: space-around;
+}
+
+.nav-container{
+
+    padding: 10px;
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgb(36, 0, 26) 0%, rgb(125, 198, 141) 35%, rgb(135, 22, 105) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(36, 0, 26) 0%, rgb(125, 198, 141) 35%, rgb(135, 22, 105) 100%);
+    background: linear-gradient(90deg, rgb(36, 0, 26) 0%, rgb(125, 198, 141) 35%, rgb(135, 22, 105) 100%);
+    
+    position: sticky;
+    top: 0px;
+}
+
+.link{
+    font-size: 18px;
+    color: black;
+    border-bottom: 3px solid rgb(206, 227, 119);
+}
+
+.link:hover{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 3px solid rgb(252, 83, 16);
+}
+
+#service{
+    position:relative;
+    display: block;
+}
+#service:hover{
+    display: block;
+    cursor:pointer;
+}
+
+.dropdown{
+    position: absolute;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    top: 50px;
+    left: 4000px;
+    display: none;
+}
+
+.dropdown:hover{
+    display: block;
+}
+
+.contact{
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+
+
+}
+
+
+.welcome{
+    
+    margin: 10px;
+    box-shadow: inset 2px 1px 30px rgb(221, 0, 255);
+    padding: 20px;
+    
+}
+
+.wlcMsg{
+    text-shadow: 2px 2px 10px rgb(61, 10, 119);
+  
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+p{
+    font-size: 22px;
+}
