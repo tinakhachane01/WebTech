@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>:before and after Pseudo selector </title>
+<style>
+    
+    .main-div {
+        background-color: #f0f0f0;
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid #ccc;
+        position: relative; 
+    }
+
+    
+    .main-div:before {
+        content: "Before Content";
+        background-color: #b3e6ff;
+        color: #333;
+        padding: 5px 10px;
+        position: absolute;
+        top: -30px;
+        left: 0;
+    }
+
+    
+    .main-div:after {
+        content: "After Content";
+        background-color: #ffcc66;
+        color: #333;
+        padding: 5px 10px;
+        position: absolute;
+        bottom: -30px;
+        right: 0;
+    }
+</style>
+</head>
+<body>
+
+<div class="main-div">
+    Main Content
+</div>
+
+</body>
+</html>
